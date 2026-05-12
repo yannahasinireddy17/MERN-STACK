@@ -1,11 +1,11 @@
 import { Card, Avatar, Text, Stack, Container } from '@mantine/core';
 import { useSelector } from 'react-redux';
 import { getName, getIsLoggedIn } from '../../redux/slices/User';
+import avatar from '../../assets/avatar.svg';
 
 const Profile = () => {
   const name = useSelector(getName);
   const isLoggedIn = useSelector(getIsLoggedIn);
-  const avatar = useSelector((state) => state.user.avatar) || null;
   const email = useSelector((state) => state.user.email) || '';
 
   if (!isLoggedIn) {
@@ -22,9 +22,9 @@ const Profile = () => {
         <Stack align="center" spacing="sm">
           <Avatar
             component="a"
-            href="https://github.com/rtivital"
+            href="https://github.com/yannahasinireddy17"
             target="_blank"
-            src={avatar || 'avatar.png'}
+            src={avatar}
             alt="it's me"
             size={120}
             radius={120}

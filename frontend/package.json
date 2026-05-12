@@ -11,9 +11,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mantine/core": "^8.1.0",
+    "@mantine/core": "^8.3.18",
     "@mantine/form": "^8.1.0",
-    "@mantine/hooks": "^8.1.0",
+    "@mantine/hooks": "^8.3.18",
     "@mantine/modals": "^8.1.0",
     "@mantine/notifications": "^8.1.0",
     "@react-oauth/google": "^0.12.2",
@@ -22,7 +22,11 @@
     "@tanstack/react-query": "^5.80.7",
     "axios": "^1.9.0",
     "bz-mern-fullstack-app": "file:..",
+    "i": "^0.3.7",
     "jwt-decode": "^4.0.0",
+    "postcss": "^8.5.14",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-redux": "^9.2.0",
